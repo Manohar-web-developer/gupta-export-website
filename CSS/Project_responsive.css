@@ -1,0 +1,112 @@
+/* Large Desktop */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .content_footer {
+    bottom: 0px;
+  }
+  .content_footer p {
+    width: 60%;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+  }
+}
+
+/* Tablet Landscape / Small Desktop */
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  .content_footer {
+    bottom: 2%;
+  }
+  .content_footer p {
+    width: 60%;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+  }
+  .content_footer h2 {
+    width: 70%;
+    font-size: 23px;
+  }
+}
+
+/* Tablet Portrait */
+@media screen and (min-width: 427px) and (max-width: 769px) {
+  .project_Heading p {
+    width: 80%;
+  }
+  .projects_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content_footer {
+    bottom: 2%;
+  }
+  .content_footer p {
+    width: 60%;
+    font-size: 12px;
+    padding: 10px 0px 10px 0px;
+  }
+  .content_footer h2 {
+    width: 80%;
+    font-size: 18px;
+  }
+}
+
+/* Large Mobile */
+@media screen and (min-width: 377px) and (max-width: 426px) {
+  .project_Heading {
+    align-items: flex-start;
+  }
+  .project_Heading p {
+    width: 100%;
+    font-size: 14px;
+    margin: 0px;
+  }
+  .projects_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fotter{
+   display: none;
+  }
+  body{
+   padding-bottom: 80px;
+  }
+}
+
+/* Medium Mobile */
+@media screen and (min-width: 321px) and (max-width: 376px) {
+   body{
+   padding-bottom: 80px;
+  }
+  .project_Heading {
+    align-items: flex-start;
+  }
+  .project_Heading p {
+    width: 100%;
+    font-size: 14px;
+    margin: 0px;
+  }
+  .projects_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+   .fotter{
+   display: none;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 320px) {
+   body{
+   padding-bottom: 80px;
+  }
+  .project_Heading {
+    align-items: flex-start;
+  }
+  .project_Heading p {
+    width: 100%;
+    font-size: 12px;
+    margin: 0px;
+  }
+  .projects_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+   .fotter{
+   display: none;
+  }
+}
